@@ -1,0 +1,35 @@
+.btn-primary {
+  font-family: Raleway-SemiBold;
+ 
+  color: rgba(58, 133, 191, 0.75);
+  letter-spacing: 1px;
+ 
+  border: 2px solid rgba(58, 133, 191, 0.75);
+  border-radius: 40px;
+  background: transparent;
+  transition: all 0.3s ease 0s;
+  font-weight: bold;
+}
+
+.btn-primary:hover {
+  color: #FFF;
+  background: rgba(58, 133, 191, 0.75);
+  border: 2px solid rgba(58, 133, 191, 0.75);
+}
+
+.homeImage {
+        -webkit-animation: action 1s infinite  alternate;
+        animation: action 1s infinite  alternate-reverse both;
+    }
+    @-webkit-keyframes action {
+        0% { transform: translateY(0); }
+        100% { transform: translateY(-10px); }
+    }
+    @keyframes action {
+        0% { transform: translateY(0); }
+        100% { transform: translateY(-10px); }
+    }
+    span{
+        font-size:x-large;
+    }
+   
